@@ -26,14 +26,14 @@ $ npx playwright install
   $ npm -i -D @playwright/test allure-playwright
 
 ## 5. Install Allure Command-Line Tool  
-To generate Allure reports, you need to install the Allure CLI. You can install it globally using npm: 
+To generate Allure reports, you need to install the Allure CLI. You can install it globally using npm:   
 $ npm install -g allure-commandline --save-dev 
 
 ## 6. Running Tests 
 
-- The Playwright tests are located in the tests directory
-- To run the tests, simply use the following command:
-  $  npx playwright test --reporter=allure-playwright
+- The Playwright tests are located in the tests directory  
+- To run the tests, simply use the following command:  
+  $  npx playwright test --reporter=allure-playwright  
 This will run the tests in the tests directory and creates a "allure-results" directory
 
 ## 7 Generate Allure Reports 
@@ -44,10 +44,10 @@ allure generate allure-results -o allure-report --clean
 
 allure open allure-report
 
-## Screeshots  
+## Screenshots  
 Screeshots are being captured dynamically in tests/screeshots directory
 
-## Video Recoding 
+## Video Recording 
 Video recording is being stored under playwright-report/data
 
 
