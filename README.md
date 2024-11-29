@@ -13,8 +13,7 @@ Before setting up the project, make sure you have the following installed:
 ## 1. Clone the Repository
 First, clone the repository to your local machine:    
 
-$ git clone https://github.com/your-username/your-repository.git   
-$ cd your-repository
+$ git clone https://github.com/niketsathe1997/PlaywrightUITesting.git
 
 ## 2. Install Dependencies  
 Use npm  to install all necessary dependencies: 
